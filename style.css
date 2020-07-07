@@ -79,3 +79,11 @@ img{
 #hr{
   background: #00bfa6;
 }
+
+.about{
+  background: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
