@@ -7,7 +7,8 @@
 }
 
 #nav-bar{
-	height: auto;
+  
+	height: 10vh
 	width: 100%;
 	position: fixed;
 	z-index: 100;
@@ -20,12 +21,12 @@
   }
 
 nav{
+  height: 10vh;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   background: #131313;
   color: white;
 }
@@ -97,12 +98,12 @@ about{
 
 @media only screen and (max-width:600px){
   
-  #nav-bar{
+#nav-bar{
 	  height: 10vh;
 	  width: 100%;
   }
   
-  nav{
+nav{
     height: 10vh;
     width: 100%;
     margin: auto;
@@ -125,7 +126,7 @@ about{
 .parah{
   color: white;
   text-align: center;
-  margin: auto;
+  margin:10vh 0 0 0;
 }
 
 #hey{
@@ -141,15 +142,15 @@ ul{
 .header{
   padding-left: 5%;
 }
-
   
-  img{
-    height: 10px;
-  }
+img{
+  height: 200px;
+  margin:0;
+}
   
-  h2{
-    color: #f54538;
-  }
+h2{
+  color: #f54538;
+}
   
  
 }
