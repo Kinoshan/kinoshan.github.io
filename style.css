@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Galada', cursive;
+}
+
+
+#nav-bar{
+  position: fixed;
+  z-index: 0;
+	height: 10vh
+	width: 100%;
+}
+
+.loginbtn{
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #f50057;
+  border:2px solid white;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+}
+.loginbtn:hover {
+  background-color: #f54538;
+  border:2px solid white;
+}
+
+nav{
+  height: 10vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #131313;
+  color: white;
+}
+
+.header{
+  padding-left: 10%;
+  color: #f50057;
+}
+
+h2{
+  color: #f50057;
+}
+
+a{
+  color: white;
+}
+
+ul{
+  display: flex;
+  padding-right: 10%;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myblog{
+}
+
+body{
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.page{
+  background: radial-gradient(#525252 ,#131313);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parah{
+  color: white;
+  text-align: left;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+img{
+  margin-top: 20%;
+  height: 300px;
+  padding: 0;
+}
+
+#hey{
+  font-size: 5rem;
+}
+
+.btn{
+  margin-top: 30px;
+}
+.btnn{
+  width: 130px;
+  height: 40px;
+  background-color: #f50057;
+  border:3px solid white;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+}
+.btnn:hover{
+  background-color: #f54538;
+  color: white;
+  border-color: white;
+}
+
+.btntxt{
+  color: white;
+  font-weight: bold;
+}
+
+.list{
+  margin-right: 30px;
+}
+
+.about{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.cards{
+  width: 150px;
+  height: 300px;
+  margin: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+#web{
+  margin: 0;
+  height: 100px;
+  width: 150px;
+}
+#cardheader{
+  padding: 1.5rem 0 1.5rem 0;
+  color: #f50057;
+}
+#txt{
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width:600px){
+  
+#nav-bar{
+	  height: 10vh;
+	  width: 100%;
+  }
+  
+nav{
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background: #131313;
+  }
+  
+.page{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(#525252 ,#131313);
+}
+
+.parah{
+  color: white;
+  text-align: center;
+  margin:10vh 0 0 0;
+}
+
+#hey{
+  font-size: 50px;
+}
+  
+ul{
+  display: flex;
+  padding-right: 5%;
+}
+  
+
+.header{
+  padding-left: 5%;
+}
+  
+img{
+  height: 200px;
+  margin:0;
+}
+  
+h2{
+  color:#f50057;
+}
+  
+ 
+}
