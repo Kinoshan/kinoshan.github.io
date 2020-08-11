@@ -212,6 +212,23 @@ img{
 h2{
   color:#f50057;
 }
-  
- 
+
+.about{
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
+.cards{
+  width: 200px;
+  height: 300px;
+  margin: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
